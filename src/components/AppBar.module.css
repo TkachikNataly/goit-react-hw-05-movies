@@ -1,0 +1,18 @@
+.container_nav {
+    border-bottom: 2px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.link {
+    margin: 10px;
+}
+
+/* .link:active{
+    color: red;
+} */
+
+.activeLink {
+    margin: 10px;
+    color: red;
+}

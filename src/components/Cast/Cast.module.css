@@ -1,0 +1,8 @@
+.cast_list {
+    width: min-content;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(46, 0, 133);
+    /* margin-left: 10px; */
+
+}
