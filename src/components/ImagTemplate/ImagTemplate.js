@@ -1,4 +1,4 @@
-import './ImagTemplate.module.css';
+import s from './ImagTemplate.module.css';
 
 export default function ImagTemplate({ tags, path, className }) {
     return (
@@ -9,7 +9,7 @@ export default function ImagTemplate({ tags, path, className }) {
                     ? `https://image.tmdb.org/t/p/w300${path}`
                     : 'https://image.shutterstock.com/image-vector/no-image-available-photo-coming-600w-2059817444.jpg'
             }
-            className={className}
+            className={s.className}
         />
     );
 }

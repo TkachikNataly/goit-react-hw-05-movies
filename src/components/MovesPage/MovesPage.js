@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './MovesPage.module.css';
+import s from './MovesPage.module.css';
 import { SearchMovies } from 'ApiService/ApiService';
 import {
     Link,
@@ -47,7 +47,7 @@ export default function MovesPage() {
         <>
             <h2> Films</h2>
             <form onSubmit={handleSubmit}>
-                <label className="form__label">
+                <label className={s.form__label}>
                     <input
                         onChange={handleChange}
                         type="text"
@@ -70,7 +70,7 @@ export default function MovesPage() {
                                     from: location,
                                     label: 'Go back Films',
                                 }}
-                                className="move_link"
+                                className={s.move_link}
                             >
                                 <h3>{title ? title : name}</h3>
                             </Link>

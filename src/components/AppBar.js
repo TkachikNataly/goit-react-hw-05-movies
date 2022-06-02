@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import './AppBar.module.css';
+import './AppBar.css';
 
 const AppBar = () => {
     return (

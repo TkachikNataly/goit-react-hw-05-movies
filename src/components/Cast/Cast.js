@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Cast.module.css';
+import s from './Cast.module.css';
 import { GetMovieCast } from 'ApiService/ApiService';
 import ImagTemplate from 'components/ImagTemplate';
 
@@ -17,7 +17,7 @@ export default function Cast({ filmId }) {
                     <ul>
                         {cast.map(
                             ({ id, name, original_name, profile_path, character }) => (
-                                <li key={id} className="cast_list">
+                                <li key={id} className={s.list}>
                                     <ImagTemplate
                                         tags={original_name}
                                         path={profile_path}

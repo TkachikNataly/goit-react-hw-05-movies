@@ -1,5 +1,5 @@
 import { GetMovieDetails } from 'ApiService/ApiService';
-import './MovieDetailsPage.module.css';
+import s from './MovieDetailsPage.module.css';
 import ImagTemplate from 'components/ImagTemplate';
 import React, { lazy, Suspense, useEffect, useState } from 'react';
 import {
@@ -64,9 +64,9 @@ export default function MovieDetailsPage() {
                         <ImagTemplate
                             tags={film.original_name}
                             path={film.poster_path}
-                            className={'poster_move'}
+                            className={s.poster_move}
                         />
-                        <div className="about_move">
+                        <div className={s.about_move}>
                             <h2>{film.title ? film.title : film.name}</h2>
                             <p>{`User Score: ${film.vote_average * 10} %`}</p>
 
