@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/542.33781673.chunk.css","mappings":"AAAA,4BACI,oBACJ","sources":["components/MovesPage/MovesPage.module.css"],"sourcesContent":[".move_link {\n    text-decoration: none;\n}"],"names":[],"sourceRoot":""}
